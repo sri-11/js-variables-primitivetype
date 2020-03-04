@@ -10,9 +10,9 @@ let m='subiksha';
 //length of string
 console.log(m.length)
 //output=8
-var str1 = "Sri";
-var str2 = "subiksha";
-var name = str1.concat(str2);
+let str1 = "Sri";
+let str2 = "subiksha";
+let name = str1.concat(str2);
 console.log(name)
 //`${a} ${b}` another method
 //concat res = Srisubiksha
@@ -32,10 +32,10 @@ console.log(str1.replace("Sri","Goodgirl"))
 //replacing string value Sri-Goodgirl
 console.log(str1.search("i"))
 //returns the position of Sri-2
-var sl=str2.slice(0,4);
+let sl=str2.slice(0,4);
 console.log(sl)
 //returns the sliced value subi
-var sp=str2.split("ksha")
+let sp=str2.split("ksha")
 console.log(sp)
 //string split to subi
 console.log(str1.startsWith("Sri"))
@@ -48,16 +48,23 @@ console.log(str1.toLowerCase())
 //sri -lowercase
 console.log(str1.toUpperCase())
 //SRI - uppercase
-var h="   hello  you";
+let h="   hello  you";
 console.log(h.trim())
 //trims the space in between-hello you
 
-//--------Number Methods------------
+//-----------------------------------------------------------------
+
+                //--------Number Methods------------
 
 let a=15.596;
+let b=15;
 console.log(a.toFixed(1))
-//rounds to one digits 15.6
+//rounds to one digit 15.6 output
 console.log(performance.memory)
-// toExponential(x)
-// toString()
 
+let number =15.0596;
+console.log(number.toExponential())
+//converts to exponential notation-1.50596e+1 output
+
+console.log(b.toString(16))
+//coverts to hexavalue of 16-f as output
