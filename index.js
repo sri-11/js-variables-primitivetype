@@ -60,7 +60,8 @@ let a=15.596;
 let b=15;
 console.log(a.toFixed(1))
 //rounds to one digit 15.6 output
-console.log(performance.memory)
+
+console.log(performance.memory)//memory heap
 
 let number =15.0596;
 console.log(number.toExponential())
